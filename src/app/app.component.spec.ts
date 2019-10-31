@@ -1,4 +1,4 @@
-import { TestBed, async } from '@angular/core/testing';
+import {TestBed, async} from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
@@ -29,3 +29,5 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('angular-app app is running!');
   });
 });
+
+
